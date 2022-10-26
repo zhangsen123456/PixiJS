@@ -1,0 +1,23 @@
+{
+  "name": "test1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zhangsen <zhangsen@3dnest.cn>",
+  "homepage": "https://github.com/zhangsen123456/PixiJS-test#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rollup-dev": "rollup --config script/rollup.config.dev.js --watch"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-html": "^1.0.1",
+    "@rollup/plugin-image": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "pixi.js": "^6.5.8",
+    "rollup": "^3.2.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.1"
+  }
+}
